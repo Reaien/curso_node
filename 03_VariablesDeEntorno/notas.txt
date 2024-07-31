@@ -1,0 +1,17 @@
+Vamos a crear variables de entorno en NODE donde irán datos sensibles
+que nos ayudarán con el desarrollo para utilizarlo si o si debemos instalar una dependencia de NODE
+
+# install locally (recommended)
+npm install dotenv --save
+
+se importan las config al archivo js
+
+import {config} from 'dotenv'
+
+config()
+
+con esto podemos traer datos desd .env que son variables de entorno el problema es que
+estas variables necesitan tener tipo(tipado) así que instalaremos otra dependencia
+se llama env-var 
+
+npm install env-var

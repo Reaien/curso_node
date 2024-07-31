@@ -1,0 +1,28 @@
+- npm init
+poner project name
+poner version (ej: 0.0.1)
+descripción
+entry point (index.js)
+test command opcional
+git repository opcional
+keywords opcional
+author 
+
+- Se crea package.json con la configuración
+Configurar scripts, podemos programar scripts
+"start": "src/node archivo.js" (script para runear la app)
+"dev": "src/node archivo.js" (script para hacer run like debug)
+"build": "src/node archivo.js" (script de compilación)
+
+npm start
+npm run dev
+npm run build
+
+- Nodemon
+Permite reiniciar proyecto al realizar cambios
+npm install -g nodemon (permite instalar globarlmente)
+npm install --save-dev nodemon (permite instalar en el entorno de dev)
+Lo instalaremos en el entorno de dev con esto se agregará al package.json como dev dependencies
+modificar script
+"start": "node src/app.js"
+"dev": "nodemono src/app.js" con npm run dev se ejecutará nodemon para el restart

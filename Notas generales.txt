@@ -1,0 +1,18 @@
+Node es un entorno de desarrollo de aplicaciones del lado del servidor usando js
+
+Hemos aprendido a iniciar un proyecto Node, configurar su package, nodemon y las importaciones con type
+cosas que en otros marcos de trabajo vienen ya configuradas aquí las hicimos por nosotros mismos
+
+También aprendimos a crear variables de entorno y importarlas desde un .env a un ejecutable de node.js
+
+Si bien Node se usa para trabajar en el servidor podemos usar un framework de backend que es ExpressJs, hay otros como NestJS también
+Sería como usar Python con Django
+
+MongoDB usaremos esta base de datos que almacena los datos en JSON
+Mongoose es una biblioteca de modelado de datos de MongoDB, permite interactuar con la DB y escribir codigo mas limpio
+Docker sirve para empaquetar, distribuir y ejecutar aplicaciones en contenedor para una imagen en especifico de un programa. podemos gestionar
+instancias diferentes de docker
+
+Middleware es una función que se ejecuta entre la solicitud y respuesta de una petición al servidor, asi se pueden manejar mejor las tareas
+y funcionalidades, para eso podemos usar Body-Parcer
+Body-Parcer analiza los cuerpos de las solicitudes de sus manejadores, permite acceder facil a los datos enviados en el cuerpo de una solicitud HTTP

@@ -1,0 +1,1 @@
+Es importante que en package.json se agregue "type": "module" para realizar importaciones y exportaciones con ES6

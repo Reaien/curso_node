@@ -2,7 +2,8 @@ Web Server osea, hostear una web usando node publicando los archivos en public
 
 Crear el npm init
 agregar nodemon
-configurar "dev": "nodemon src/app.js"
+configurar "type":module (para hacer los import exports ES6) 
+configurar scripts:"dev": "nodemon src/app.js"
 crear src/app.js y función agnóstica y autoconvocada para arrancar la app
 crear server/server.js manejar nuestro servidor
 crear config/env.js para configurar el manejo de las variables de entorno
@@ -20,3 +21,5 @@ configurar env.js con las importaciones
 instalar express npm i express
 express nos sirve para facilitarnos los web services y httpservices
 express será configurado en server.js donde se hará un destructuring y se pedirá el port y el public_path el cual se inicializará en app.js
+
+con estas configuraciones creamos un servidor que sirve nuestro contenido estático 

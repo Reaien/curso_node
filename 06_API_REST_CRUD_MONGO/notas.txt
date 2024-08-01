@@ -1,0 +1,31 @@
+iniciamos project npm init
+entry point = src/app.js
+
+instalamos nodemon npm i nodemon
+
+configurar en scripts en package.json 
+"type": "module"
+"dev": "nodemon src/app.js" / "start": "node src/app.js",
+
+crear variable de entorno .env y configurar PORT, MONGO_USER, MONGO_PASS, MONGO_DB_NAME
+
+crear carpeta src/app.js
+
+crear .gitignore
+
+crear carpeta models/book.model.js (la cual tendra los modelos de la base de datos creados con MONGOSE)
+
+crear carpeta routes/book.routes.js (la cual tendra las rutas para acceder a los datos)
+
+instalar express npm i express
+instalar dotenv npm i dotenv
+
+configurar app.js (ver archivo)
+
+
+crear y trabajar con los modelos en models/book.models.js 
+instalar mongoose npm i mongoose (modelador para mongoDB)
+
+configurar modelo (ver archivo)
+
+configurar rutas (ver archivo) aquí irán los metodos get post put delete

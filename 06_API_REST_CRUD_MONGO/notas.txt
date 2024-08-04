@@ -29,3 +29,23 @@ instalar mongoose npm i mongoose (modelador para mongoDB)
 configurar modelo (ver archivo)
 
 configurar rutas (ver archivo) aquí irán los metodos get post put delete
+
+una vez condifurado el modelo y las rutas volver a app.js
+importar mongoose
+importar routes.js
+instalar body-parser npm i body-parser
+importar bodyParser con esto podemos parsear a json el body que recibamos
+terminar de ajustar app.js
+
+crear docker-compose.yml
+El archivo docker-compose.yml es una parte crucial de Docker Compose, una herramienta para definir y ejecutar aplicaciones Docker multi-contenedor. Este archivo permite describir los servicios, redes y volúmenes necesarios para la aplicación en un solo archivo YAML, facilitando la gestión y despliegue de aplicaciones complejas.
+
+abrir docker desktop
+arrancar compose docker compose up -d
+agregar config a .env con la mongo_url
+
+si el contenedor quedó bien levantado, podemos abrir mongo compass
+agregar la mongo_url configurada y conectar
+
+para crear la db en mongo, haremos npm run dev para que node la cree
+si todo sale bien, se verá el schema/bd dentro de mongo compass
